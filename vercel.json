@@ -3,12 +3,6 @@
   "builds": [
     { "src": "next.config.js", "use": "@vercel/next" }
   ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
-  ],
-  "rewrites": [],
-  "headers": [],
-  "redirects": [],
   "cleanUrls": true,
   "trailingSlash": false
 }
